@@ -72,7 +72,7 @@ const Hero = () => {
               <span className={`inline-block w-1 h-8 bg-primary ml-1 ${isTyping ? 'animate-pulse' : ''}`}></span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
-              A Computer Science student passionate about creating modern web and mobile applications with cutting-edge technologies.
+              A BSIT student passionate about creating modern web and mobile applications with cutting-edge technologies.
             </p>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
