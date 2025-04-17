@@ -82,7 +82,7 @@ const Skills = () => {
 
   return (
     <section id="skills" ref={sectionRef} className="py-24 pt-28 bg-gray-50 opacity-0 transition-opacity duration-1000">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-primary font-medium rounded-full bg-blue-100 mb-4">My Skills</span>
           <h2 className="text-4xl md:text-5xl font-bold text-dark">Technical Proficiency</h2>

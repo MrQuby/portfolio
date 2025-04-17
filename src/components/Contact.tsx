@@ -71,7 +71,7 @@ const Contact = () => {
         <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-blue-400 rounded-full"></div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-primary font-medium rounded-full bg-blue-100 mb-4">Contact Me</span>
           <h2 className="text-4xl md:text-5xl font-bold text-dark">Get In Touch</h2>
@@ -94,8 +94,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <h4 className="font-bold text-dark text-xl mb-1">Email</h4>
-                  <p className="text-gray-600 mb-1">alvin.lagoras@example.com</p>
-                  <a href="mailto:alvin.lagoras@example.com" className="text-primary hover:underline inline-block">Send an email</a>
+                  <p className="text-gray-600 mb-1">alvin.lagoras@gmail.com</p>
+                  <a href="mailto:alvin.lagoras@gmail.com" className="text-primary hover:underline inline-block">Send an email</a>
                 </div>
                 
                 <div className="flex flex-col items-center text-center">

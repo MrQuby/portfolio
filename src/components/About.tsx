@@ -25,7 +25,7 @@ const About = () => {
 
   return (
     <section id="about" ref={sectionRef} className="py-24 pt-28 bg-white opacity-0 transition-opacity duration-1000">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-primary font-medium rounded-full bg-blue-100 mb-4">About Me</span>
           <h2 className="text-4xl md:text-5xl font-bold text-dark">Know Me More</h2>
@@ -50,7 +50,7 @@ const About = () => {
               
               {/* Experience badge */}
               <div className="absolute -bottom-10 -right-10 w-28 h-28 bg-blue-600 rounded-full shadow-lg flex flex-col items-center justify-center text-white">
-                <span className="text-3xl font-bold">2+</span>
+                <span className="text-3xl font-bold">1+</span>
                 <span className="text-sm">Years of<br/>Experience</span>
               </div>
             </div>
@@ -60,13 +60,13 @@ const About = () => {
             <h3 className="text-3xl font-bold text-dark mb-4">I'm <span className="text-primary">Alvin Lagoras</span>, a Student Developer</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
               I'm a passionate student developer with a strong foundation in modern web technologies. 
-              Currently pursuing my degree in Computer Science, I combine academic knowledge with hands-on
+              Currently pursuing my degree in Information Technology, I combine academic knowledge with hands-on
               project experience to build responsive, user-friendly applications.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               I enjoy turning complex problems into simple, beautiful, and intuitive designs. 
-              When I'm not coding or learning new technologies, you'll find me contributing to open-source 
-              projects, participating in hackathons, or collaborating with fellow student developers.
+              When I'm not coding or learning new technologies, you'll find me working on hardware, 
+              networking, optimizing systems, or collaborating with fellow tech enthusiasts.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
@@ -88,7 +88,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="font-bold text-dark text-base mb-1">Email:</h4>
-                <p className="text-gray-600">alvin.lagoras@example.com</p>
+                <p className="text-gray-600">alvin.lagoras@gmail.com</p>
               </div>
               
               <div className="flex flex-col items-center text-center border-b border-gray-200 pb-3">
@@ -113,16 +113,16 @@ const About = () => {
               </div>
             </div>
             
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap justify-center sm:justify-start space-x-0 sm:space-x-4 space-y-4 sm:space-y-0">
               <a 
                 href="#contact" 
-                className="btn-primary"
+                className="btn-primary w-full sm:w-auto text-center sm:text-left mb-4 sm:mb-0 mr-0 sm:mr-4"
               >
                 Hire Me
               </a>
               <a 
                 href="#" 
-                className="btn-outline"
+                className="btn-outline w-full sm:w-auto text-center sm:text-left"
               >
                 Download CV
               </a>

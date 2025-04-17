@@ -8,10 +8,7 @@ const Hero = () => {
   useEffect(() => {
     const phrases = [
       'a Student Developer',
-      'a Front-end Enthusiast',
-      'a React Developer',
-      'a Mobile App Developer',
-      'a Full-stack Student'
+      'a React Developer'
     ];
     
     let currentPhrase = 0;
@@ -60,7 +57,7 @@ const Hero = () => {
       <div className="absolute top-40 right-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
       <div className="absolute bottom-20 left-60 w-56 h-56 bg-purple-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
         <div className="text-center md:text-left md:flex md:items-center md:justify-between">
           <div className="md:max-w-2xl">
             <p className="inline-block px-3 py-1 text-primary font-medium rounded-full bg-blue-100 mb-6">

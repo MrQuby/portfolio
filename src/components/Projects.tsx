@@ -55,13 +55,13 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={sectionRef} className="py-24 pt-28 bg-white opacity-0 transition-opacity duration-1000">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-primary font-medium rounded-full bg-blue-100 mb-4">Portfolio</span>
           <h2 className="text-4xl md:text-5xl font-bold text-dark">Student Projects</h2>
           <div className="w-24 h-1 bg-primary mx-auto mt-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto mt-6">
-            Explore my academic and personal projects developed while pursuing my Computer Science degree.
+            Explore my academic and personal projects developed while pursuing my Information Technology degree.
           </p>
         </div>
         

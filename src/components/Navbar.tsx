@@ -44,8 +44,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-blue-600 shadow-md py-3' : 'bg-blue-600 py-5'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-blue-500 shadow-md py-3' : 'bg-blue-500 py-5'}`}>
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="#home" className="text-2xl font-bold text-white">
@@ -63,8 +63,8 @@ const Navbar = () => {
                 className={`
                   font-medium transition-colors
                   ${activeSection === link.id 
-                    ? 'text-white font-semibold' 
-                    : 'text-blue-100 hover:text-white'}
+                    ? 'text-white font-semibold border-b-2 border-white' 
+                    : 'text-green-100 hover:text-white hover:border-b-2 hover:border-white'}
                 `}
               >
                 {link.label}
@@ -108,8 +108,8 @@ const Navbar = () => {
                 href={`#${link.id}`}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
                   activeSection === link.id
-                    ? 'text-white bg-primary-dark'
-                    : 'text-blue-100 hover:text-white hover:bg-primary-dark'
+                    ? 'text-white bg-secondary-dark border-b-2 border-white'
+                    : 'text-green-100 hover:text-white hover:bg-secondary-dark hover:border-b-2 hover:border-white'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
