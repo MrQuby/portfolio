@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import profile from '../assets/default-avatar.jpg';
+import profile from '../assets/profile.jpg';
 
 const Hero = () => {
   const [text, setText] = useState('');
@@ -69,7 +69,7 @@ const Hero = () => {
               <span className={`inline-block w-1 h-8 bg-primary ml-1 ${isTyping ? 'animate-pulse' : ''}`}></span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
-              A BSIT student passionate about creating modern web and mobile applications with cutting-edge technologies.
+              A 3rd year BSIT student passionate about creating modern web and mobile applications with cutting-edge technologies.
             </p>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4">

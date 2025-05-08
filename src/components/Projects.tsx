@@ -48,7 +48,7 @@ const Projects = () => {
       description: "A responsive portfolio website built with React, TypeScript and Tailwind CSS. Features include dark mode, animations, and contact form with validation.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: portfolio,
-      demoLink: "https://example.com",
+      demoLink: "https://portfolio-alvin-lagoras.vercel.app/",
       codeLink: "https://github.com/MrQuby",
     }
   ];
@@ -70,15 +70,15 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 group"
+              className="bg-white rounded-xl overflow-hidden shadow-lg transition-all"
             >
-              <div className="h-48 bg-gradient-to-r from-blue-400 to-primary relative overflow-hidden group-hover:h-36 transition-all duration-300">
+              <div className="h-48 bg-gradient-to-r from-blue-400 to-primary relative overflow-hidden">
                 {/* Project image */}
                 <img src={project.image} alt={project.title} className="absolute inset-0 w-full h-full object-cover" />
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-dark mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
+                <h3 className="text-xl font-bold text-dark mb-2 transition-colors">{project.title}</h3>
                 <p className="text-gray-600 mb-4 line-clamp-3">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">

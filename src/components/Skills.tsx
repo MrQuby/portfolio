@@ -31,13 +31,13 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        { name: "HTML5", level: 90 },
+        { name: "HTML5", level: 80 },
         { name: "CSS3", level: 85 },
         { name: "JavaScript", level: 85 },
         { name: "TypeScript", level: 80 },
         { name: "React", level: 85 },
         { name: "React Native", level: 75 },
-        { name: "Tailwind CSS", level: 90 },
+        { name: "Tailwind CSS", level: 80 },
       ]
     },
     {
@@ -67,7 +67,7 @@ const Skills = () => {
         { name: "Git & GitHub", level: 85 },
         { name: "Vite", level: 80 },
         { name: "Figma", level: 75 },
-        { name: "Responsive Design", level: 90 },
+        { name: "Responsive Design", level: 80 },
         { name: "Web Accessibility", level: 70 },
       ]
     }
@@ -76,8 +76,8 @@ const Skills = () => {
   const stats = [
     { label: "Projects Completed", value: "15+" },
     { label: "Technologies", value: "15+" },
-    { label: "Courses Completed", value: "20+" },
-    { label: "Happy Teammates", value: "10+" }
+    { label: "Certifications", value: "5+" },
+    { label: "Personal Achievements", value: "5+" }
   ];
 
   return (

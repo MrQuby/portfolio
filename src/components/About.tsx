@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import profile from '../assets/default-avatar.jpg';
+import profile from '../assets/profile.jpg';
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
